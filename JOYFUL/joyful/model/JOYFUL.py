@@ -112,5 +112,4 @@ class JOYFUL(nn.Module):
             loss = self.clf.get_loss(
                 graph_out, data["label_tensor"], data["text_len_tensor"]
             )
-        print('preLoss: '+str(loss) + 'contraL: ' + str(self.cl_loss_weight*cl_loss))
         return loss + self.cl_loss_weight*cl_loss
