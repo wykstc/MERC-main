@@ -21,7 +21,8 @@ This is the official implementation for the paper "Joyful: Joint Multimodality F
 - PyTorch toolbox (1.12.1+cu113)
 - Linux 5.11.0-46-generic
 
-The version of CUDA is very important, please use the same CUDA version for training. For fast check, the check point is provided.
+The version of CUDA is very important, please use the same CUDA version for training. 
+For fast check, the check point is provided.
 
 ## Requirement
 - We use PyG (PyTorch Geometric) for the GNN component in our architecture. [RGCNConv](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.RGCNConv) and [TransformerConv](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.TransformerConv)
