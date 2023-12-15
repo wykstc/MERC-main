@@ -57,7 +57,7 @@ The Mosei dataset is avaliable on this official website
 ### Train the model
 
 ```
-python train.py --dataset="iemocap_4" --modalities="atv" --from_begin --epochs=30
+python train.py --dataset="iemocap_4" --modalities="atv" --from_begin --epochs=50
 ```
 
 ### Evaluate the model
