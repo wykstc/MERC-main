@@ -1,7 +1,7 @@
-# MERC
-This is the official implementation for the paper "Joyful: Joint Multimodality Fusion and Graph Contrastive Learning for Multimodal Emotion Recognition" accepted by EMNLP2023.
+# Joyful
+This is the official implementation for the paper "Joyful: Joint Modality Fusion and Graph Contrastive Learning for Multimodal Emotion Recognition" accepted by EMNLP2023.
 
-# Structure of MERC
+# Structure of Joyful
 ![image](structure.png)
 
 ## Table of Contents
