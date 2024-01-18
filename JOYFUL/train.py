@@ -96,7 +96,7 @@ def main(args):
 
     sched1 = opt1.get_scheduler(args.scheduler)
 
-    coach = joyful.Coach(trainset, devset, testset, model, modelF, opt1, opt2, sched1, args)
+    coach = joyful.Coach(trainset, devset, testset, model, modelF, opt1, sched1, args)
 
     # Train
     log.info("Start training...")
