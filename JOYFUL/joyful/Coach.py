@@ -13,14 +13,13 @@ log = joyful.utils.get_logger()
 
 
 class Coach:
-    def __init__(self, trainset, devset, testset, model, modelF, opt1 ,opt2, sched1, args):
+    def __init__(self, trainset, devset, testset, model, modelF, opt1 , sched1, args):
         self.trainset = trainset
         self.devset = devset
         self.testset = testset
         self.model = model
         self.modelF = modelF
         self.opt1 = opt1
-        self.opt2 = opt2
         self.scheduler = sched1
         self.args = args
         self.dataset_label_dict = {
